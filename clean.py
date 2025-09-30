@@ -3,6 +3,7 @@ import logging
 from pathlib import Path
 from datetime import datetime
 
+
 DB_PATH = "nytaxi.db"  
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(parents=True, exist_ok=True)
